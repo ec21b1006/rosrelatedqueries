@@ -11,6 +11,8 @@
 
 `curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -`
 
+- if second command didn't result in errors then directly execute this command
+
 `sudo apt clean && sudo apt update`
 
 ---
